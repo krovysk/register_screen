@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.main-register{
+    width: 100vw; /* VW = Viewport Width*/
+    height: 100vh; /* VH = Viewport Height*/
+    background: linear-gradient(32deg, #b3b3b3, rgb(57, 73, 57));
+    display: flex;
+    justify-content: center; /* Justifica o conteúdo no eixo X */
+    align-items: center; /* Justifica o conteúdo no eixo Y*/
+}
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-register{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-content h1{
+    color: #ffffff;
+}
+
+.right-content{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-register{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: linear-gradient(45deg, rgb(75, 141, 97), rgb(17, 100, 60));
+    border-radius: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.596);
+}
+.card-register-title{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 46px;
+}
+.card-register-textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card-register-textfield input{
+    width: 25vw;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    outline: none;
+    box-sizing: border-box;
+    color: #5c5c5c;
+}
+.card-register-textfield label{
+    margin-bottom: 16px;
+    color: #ffffff;
+    font-size: 24px;
+}
+#btn-register{
+    color: #2e663d;
+    margin-top: 32px;
+    width: 50%;
+    height: 80px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+#btn-register:hover {
+    background: #c8f7d5;
+    transition: 0.3s;
+}
+#btn-register:active {
+    background: #ffffff;
+    transition: 0.3s;
+}
+.register-img{
+    width: 35vw;
+    margin: 0;
+}
+
+
